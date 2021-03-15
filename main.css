@@ -37,6 +37,13 @@ img{
 
 }
 
+
+@media(min-width:60rem){
+  .heading{
+      font-size: 4rem;
+  }
+}
+
 .button{
     display: inline-block;
     font-size: 1.5rem;
@@ -59,6 +66,12 @@ img{
     color: #232323;
 }
 
+@media(min-width:60rem) {
+  .button{
+      font-size: 2rem;
+  }
+}
+
 
 /* Header
 ==============================*/
@@ -66,7 +79,10 @@ header{
     position: absolute;
     left: 0;
     right: 0;
-    margin-top: -2em;
+    margin:2em;
+}
+.logo{
+    margin-top: -4em;
 }
 
 /* header img{
@@ -99,11 +115,33 @@ nav a:focus{
     color: rgb(150, 236, 111);
 }
 
+
+@media(min-width:60rem){
+   .logo{
+       float: left;
+   }
+
+   nav{
+       float: right;
+   }
+  }
+
 /* Heading page
 ==============================*/
 
 .main-page{
-    background-image: url(./Projects-images/back_sm.jpg);
+    background: url(./Projects-images/back.jpg) no-repeat;
     padding: 18em 0;
+    background-position: center;
+    background-size: cover;
     color: #fff;
 }
+
+@media(min-width:60rem){
+.main-page{
+    height: 100vh;
+    padding: 15em 0;
+}
+}
+
+
