@@ -11,3 +11,99 @@ body{
     text-align: center;
     margin: 0;
 }
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* typography
+==============================*/
+
+.heading{
+    font-size: 2.8em;
+    margin-bottom: 1.5em;
+}
+
+.heading span{
+    display: block;
+    font-size: 0.8em;
+    font-weight: 300;
+
+}
+
+.button{
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: 0.5em 1.8em;
+}
+
+.button-light{
+    color: #00ff6c;
+    border-color: #00ff6c;
+}
+
+.button-light:hover,
+.button-light:focus{
+    background-color: #00ff6c;
+    color: #232323;
+}
+
+
+/* Header
+==============================*/
+header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: -2em;
+}
+
+/* header img{
+    height: 150px;
+} */
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+   margin: 0 1em 1em;
+    
+}
+
+nav a{
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5em;
+    color: #fff;
+}
+
+nav a:hover,
+nav a:focus{
+    color: rgb(150, 236, 111);
+}
+
+/* Heading page
+==============================*/
+
+.main-page{
+    background-image: url(./Projects-images/back_sm.jpg);
+    padding: 18em 0;
+    color: #fff;
+}
