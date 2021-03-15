@@ -24,10 +24,17 @@ img{
 
 /* typography
 ==============================*/
+h1{
+    font-weight: 300;
+    font-size: 1.7rem;
+    margin-top: 0;
+}
 
 .heading{
     font-size: 2.8em;
     margin-bottom: 1.5em;
+    font-weight: 900;
+    margin-top: 1em;
 }
 
 .heading span{
@@ -144,4 +151,60 @@ nav a:focus{
 }
 }
 
+/* About Page
+==============================*/
+.about-text{
+    background-color: #232323;
+    padding: 4em;
+    width: 100vw;
+    margin-left: -2.6%;
+    outline: 2px solid #00ff6c;
+    outline-offset: -2.5em;
+    color: white;
+    position: relative;
+}
+.about-text p{
+    font-size: 1.3em;
+}
+.about-text h1{
+    color: #00ff6c;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0.75em;
+    background-color: #232323;
+    padding: 0 0.145em;
+}
+
+@media(min-width:25rem){
+    h1{
+        font-size: 2rem;
+    }
+    .about-text h1{
+        top: 0.6em;
+        padding: 0 0.325em;
+    }
+}
+
+@media(min-width:60rem){
+    h1{
+        font-size: 2.5rem;
+    }
+    .about{
+      background-image: url(./Projects-images/who.jpg);
+      background-repeat: no-repeat;
+      padding: 5em;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .about-text{
+        width: 60%;
+        margin-left: -2.6%;
+    }
+    .about-text h1{
+        top: 0.3em;
+        padding: 0 0.6em;
+    }
+}
 
