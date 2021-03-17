@@ -98,6 +98,7 @@ p:last-of-type {
 .heading{
     font-size: 2.8em;
     margin-bottom: 1.5em;
+    color: wheat;
     font-weight: 900;
     margin-top: 1em;
 }
@@ -111,6 +112,7 @@ p:last-of-type {
 
 .callus-heading{
     margin:0 0 0.5em;
+    /* color: #fff; */
 }
 
 .unstyled-list{
@@ -190,7 +192,8 @@ header{
     margin:2em;
 }
 .logo{
-    margin-top: -4em;
+    margin-top: -1em;
+    border-radius: 50%;
 }
 
 /* header img{
@@ -239,8 +242,8 @@ nav a:focus{
 
 .main-page{
     background: url(./Projects-images/back.jpg) no-repeat;
-    padding: 18em 0;
-    background-position: center;
+    padding: 15em 0;
+    background-position: center ;
     background-size: cover;
     color: #fff;
     /* background-attachment: fixed; */
@@ -248,8 +251,9 @@ nav a:focus{
 
 @media(min-width:60rem){
 .main-page{
+    background-image: url(./Projects-images/back_big.jpg);
     height: 100vh;
-    padding: 15em 0;
+    padding: 12em 0;
 }
 }
 
@@ -375,6 +379,15 @@ nav a:focus{
     background-color: #00ff6c;
     padding: 5em 0;
 }
+
+/* 
+.heading {
+    font-size: 2.8em;
+    margin-bottom: 1.5em;
+    color: #00ff6c;
+    font-weight: 900;
+    margin-top: 1em;
+} */
 
 
 /* footer
