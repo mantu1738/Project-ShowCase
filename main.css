@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Indie+Flower&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
@@ -8,7 +8,7 @@
 }
 
 body{
-    font-family: 'Caveat', cursive;
+    font-family: 'Oswald', sans-serif;
     text-align: center;
     margin: 0;
 }
@@ -31,6 +31,9 @@ content: ' ';
 display: block;
 clear: both;
 }
+
+
+
 /* column System
 ==============================*/
 
@@ -278,7 +281,7 @@ nav a:focus{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 0.75em;
+    top: 0.80em;
     background-color: #232323;
     padding: 0 0.145em;
 }
@@ -419,4 +422,25 @@ li a:hover{
     left: 50%;
     top: 0;
     bottom: 0;
+} */
+
+
+/* PRELOADER
+==============================*/
+/* .preloader{
+    width: 100vw;
+    height: 100vh;
+    background-color: #232323;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader{
+    width: 50px;
+    height: 50px;
+    color: #00ff6c;
+    border-radius: 50%;
+    border-top-color:transparent ;
 } */
