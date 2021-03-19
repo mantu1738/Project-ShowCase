@@ -147,7 +147,8 @@ p:last-of-type {
 }
 @media(min-width:60rem) {
     .button{
-        font-size: 2rem;
+        font-size: 2rem; 
+     margin: -4rem;
     }
   }
 
