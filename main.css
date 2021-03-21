@@ -235,10 +235,17 @@ nav a{
     padding: 0.5em;
     color: #fff;
 }
+.next-page{
+    color: #00ff6c;
+}
+.next-page:hover,
+.next-page:focus{
+    color: #fff;
+}
 
 nav a:hover,
 nav a:focus{
-    color: rgb(150, 236, 111);
+    color: #fff;
 }
 
 
