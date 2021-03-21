@@ -139,7 +139,11 @@ ul {
     padding: 0.7em;
     border: 1px solid #5cffa1;
     border-radius: 10px;
-}
+} 
+  .contact-form form input:active,
+  .contact-form form textarea:active{
+      outline: 0;
+  }
 
 
 .contact-form form button{

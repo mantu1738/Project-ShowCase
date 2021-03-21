@@ -42,34 +42,37 @@
                 </ul>
             </div>
             <div class="contact-form">
-                <form>
+                <form id="contactform">
                     <p>
                         <label>Name:</label>
-                        <input type="text" name="name">
+                        <input type="text" name="name" id="name">
                     </p>
                     <p>
                         <label>Company:</label>
-                        <input type="text" name="company">
+                        <input type="text" name="company" id="company">
                     </p>
                     <p>
                         <label>Email Address:</label>
-                        <input type="email" name="email">
+                        <input type="email" name="email" id="email">
                     </p>
                     <p>
                         <label>Phone Number:</label>
-                        <input type="number" name="phone">
+                        <input type="number" name="phone" id="phone">
                     </p>
                     <p class="full">
                         <label>Message:</label>
-                        <textarea name="message" rows="5"></textarea>
+                        <textarea name="message" rows="5" id="message"></textarea>
                     </p>
                     <p class="full">
-                        <button>Submit</button>
+                        <button type="submit">Submit</button>
                     </p>
                 </form>
             </div>
         </div>
     </div>
+
+
+    <script src="./contact.js"></script>
 
 </body>
 
